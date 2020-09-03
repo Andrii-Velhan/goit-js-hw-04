@@ -1,0 +1,1 @@
+// Write code under this line// Write code under this line  function mapArray(array, cb) {  'use strict';// Write code under this line  for(let i = 0; i < array.length; i += 1) {    const element = array[i];    const index = i;     numbers[i] = cb(element, index);  }  return numbers;}const arr  = [1,2,3,4,5];// [1, 3, 5, 7, 9]// [1, 1, 1, 1, 1]
